@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent {
+    margin-top: 20px;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+#child {
+    background-color: lightgreen;
+    width: 95vw;
+    height: 70vh;
+}
+
+h4 {
+    border-bottom: 2px solid orange;
+}
